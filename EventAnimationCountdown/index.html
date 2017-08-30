@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="dialogStyle.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="jquery.datetimepicker.css">
+  <link href="jquery-ui.css" rel="stylesheet" type="text/css" />
+   
+   
+ </head>
+<body>
+    
+    <div class="background-image"></div>
+    
+    <div id="container" class="content">
+        
+
+  <form class="box" action="index1.html" onsubmit="return onSave(this);" >
+  
+      
+    <label><B>EVENT TITLE</B></label><br>
+    <input type="text" name="inputfield" id="title" size="10" placeholder="Title..." />
+      <br />
+      <br>
+        <label><B>DATE</B></label><br>
+      <input type="text" placeholder="Date and Time" id="datetimepicker" />
+      <input type="submit" value="Let's Countdown" />
+  </form>
+ 
+</div>
+    
+    <script src="jquery.js"></script>
+    <script src="jquery.datetimepicker.full.min.js"></script>
+    <script src="cd.js"></script>
+    <script src="dialogJS.js"></script>
+    <script src="index1.js"></script>
+    <script src="dateTimeFormat.js"></script>
+ <div id="white-background"></div>
+<div id="dlgbox">
+    <div id="dlg-header">Confirm</div>
+    <div id="dlg-body1"></div>
+    <div id="dlg-footer">
+    <button onclick="dlgOK()">OK</button>
+        
+    </div>
+</div>
+
+</body>
+</html>

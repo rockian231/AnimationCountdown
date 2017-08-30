@@ -1,0 +1,74 @@
+#white-background{
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #fefefe;
+            opacity: 0.7;
+            z-index: 9999;
+            align-items: center;
+        }
+
+        #dlgbox{
+            display: none;
+            position: fixed;
+            width: 480px;
+            z-index: 9999;
+            border-radius: 10px;
+            background-color: #7c7d7e;
+        }
+
+        #dlg-header{
+            background-color: #6d84b4;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px 10px 0 10px;
+        }
+
+        #dlg-body{
+            background-color: white;
+            color: black;
+            font-size: 28px;
+            font-family: cooper black;
+            font-weight: bold;
+            padding: 20px 0 20px 10px;
+            margin: 0 10px 0 10px;
+            border-bottom: 1px black;
+        }
+        #dlg-body1{
+            background-color: white;
+            color: red;
+            font-size: 20px;
+            font-family: cooper;
+            font-weight: bold;
+            padding: 20px 0 20px 10px;
+            margin: 0 10px 0 10px;
+            border-bottom: 1px black;
+        }
+        #dlg-footer{
+            background-color: #eae8e8;
+            text-align: right;
+            padding: 10px;
+            margin: 0 10px 10px 10px;
+        }
+
+        #dlg-footer button{
+            background-color: #6d84b4;
+            width: 50px;
+            color: white;
+          
+            font-family: tahoma;
+            font-weight: bold;
+            background-color: #5191f7;
+            padding: 10px 0 10px 0;
+            margin: 2px 0;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+#dlg-footer button:hover {
+    background: lightblue;
+}
